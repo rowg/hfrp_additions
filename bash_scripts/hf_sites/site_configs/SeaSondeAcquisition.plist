@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AWG GPS Synchro</key>
+	<dict>
+		<key>Enabled</key>
+		<string>No</string>
+		<key>SyncEveryNthCrossSpectra</key>
+		<string>48</string>
+		<key>SyncOnResetProcessing</key>
+		<string>Yes</string>
+	</dict>
+	<key>CrossSpectra</key>
+	<array>
+		<dict>
+			<key>CrossSpectraLogging</key>
+			<string>On ;; Off,On,False,True</string>
+			<key>CrossSpectraProcessing</key>
+			<string>On ;; Off,On,False,True</string>
+			<key>DopplerCells</key>
+			<integer>512</integer>
+			<key>Glitch Removal</key>
+			<dict/>
+			<key>RangeCells</key>
+			<integer>64</integer>
+		</dict>
+		<dict>
+			<key>CrossSpectraLogging</key>
+			<string>Off ;; Off,On,False,True</string>
+			<key>CrossSpectraProcessing</key>
+			<string>Off ;; Off,On,False,True</string>
+			<key>Glitch Removal</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>CrossSpectraLogging</key>
+			<string>Off ;; Off,On,False,True</string>
+			<key>CrossSpectraProcessing</key>
+			<string>Off ;; Off,On,False,True</string>
+			<key>Glitch Removal</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>CrossSpectraLogging</key>
+			<string>Off ;; Off,On,False,True</string>
+			<key>CrossSpectraProcessing</key>
+			<string>Off ;; Off,On,False,True</string>
+			<key>Glitch Removal</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>CrossSpectraLogging</key>
+			<string>Off ;; Off,On,False,True</string>
+			<key>CrossSpectraProcessing</key>
+			<string>Off ;; Off,On,False,True</string>
+			<key>Glitch Removal</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>CrossSpectraLogging</key>
+			<string>Off ;; Off,On,False,True</string>
+			<key>CrossSpectraProcessing</key>
+			<string>Off ;; Off,On,False,True</string>
+			<key>Glitch Removal</key>
+			<dict/>
+		</dict>
+	</array>
+	<key>Diagnostics</key>
+	<dict>
+		<key>AntennaBearingDegrees</key>
+		<string>0.0</string>
+		<key>DopplerCells</key>
+		<string>364</string>
+		<key>FindSecondTarget</key>
+		<string>No  	;; No,Yes</string>
+		<key>LastBearingDegrees</key>
+		<string>0</string>
+		<key>LastLoop1BearingDegrees</key>
+		<string>0.0</string>
+		<key>LastTargBearingDegrees</key>
+		<string>0.0</string>
+		<key>LastTargDistance</key>
+		<string>0.000</string>
+		<key>LastTargRadVelocity</key>
+		<string>0.0</string>
+		<key>LogRangePeak</key>
+		<string>No  	;; No,Yes</string>
+		<key>LoopFolder</key>
+		<string>/Codar/SeaSonde/Data/Loops/</string>
+		<key>RatiosTargetAboveNoiseFloordB</key>
+		<string>3.</string>
+		<key>RatiosTargetBelowPeakdB</key>
+		<string>6.</string>
+		<key>RatiosTargetDopplerWidthPercentage</key>
+		<string>10</string>
+		<key>SearchFirstDopplerCell</key>
+		<string>6</string>
+		<key>SearchFirstRangeCell</key>
+		<string>5</string>
+		<key>SearchLastDopplerCell</key>
+		<string>-6</string>
+		<key>SearchLastRangeCell</key>
+		<string>14</string>
+		<key>SearchTargetDopplerAdjust</key>
+		<string>0</string>
+		<key>SearchTargetDopplerWidth</key>
+		<string>4</string>
+		<key>SearchTargetRangeAdjust</key>
+		<string>0</string>
+		<key>SearchTargetRangeWidth</key>
+		<string>0</string>
+		<key>SweepsPerRecording</key>
+		<string>99999</string>
+		<key>TargetIsTransponder</key>
+		<string>No  	;; No,Yes</string>
+		<key>TimeSlide</key>
+		<string>16</string>
+		<key>TransponderDelayUs</key>
+		<string>16.</string>
+		<key>TransponderFreqOffsetHz</key>
+		<string>20.7</string>
+		<key>UserComment</key>
+		<string>Acq4.0</string>
+	</dict>
+	<key>End</key>
+	<dict/>
+	<key>Glitch Removal</key>
+	<dict>
+		<key>Method</key>
+		<string>Range ;; None,Point,Range,RangeAndPoint,SubDCOnly</string>
+		<key>PointPowerThreshold</key>
+		<real>15</real>
+		<key>RangeBinThreshold</key>
+		<integer>50</integer>
+		<key>RangePowerThreshold</key>
+		<real>10</real>
+		<key>RemoveDC</key>
+		<string>No ;; No,Yes,False,True</string>
+		<key>WarningOnly</key>
+		<string>Yes ;; No,Yes</string>
+	</dict>
+	<key>Graphs</key>
+	<dict>
+		<key>AScopeGraph</key>
+		<string>Off</string>
+		<key>AutoScale</key>
+		<string>Off</string>
+		<key>CrossSpectra1</key>
+		<string>Off,3</string>
+		<key>CrossSpectra2</key>
+		<string>Off,7</string>
+		<key>CrossSpectra3</key>
+		<string>Off,9</string>
+		<key>CrossSpectraMap</key>
+		<string>On  	;; Off,On</string>
+		<key>DisableCSProgressBars</key>
+		<string>No         ;; No,Yes</string>
+		<key>LevelGraph</key>
+		<string>Off</string>
+		<key>RangeAveraging</key>
+		<string>1</string>
+		<key>RangeGraph</key>
+		<string>Off</string>
+		<key>RangeMapRangeLimit</key>
+		<string>0</string>
+		<key>SpectraMapRangeLimit</key>
+		<string>0</string>
+		<key>SweepTrigger</key>
+		<string>1</string>
+	</dict>
+	<key>Monitors</key>
+	<dict>
+		<key>AcqMonitor</key>
+		<string>Off</string>
+		<key>PeakMonitor</key>
+		<string>Off</string>
+		<key>SarMonitor</key>
+		<string>Off</string>
+		<key>StatusMonitor</key>
+		<string>On</string>
+		<key>StatusWindow</key>
+		<string>On  	;; Off,On</string>
+	</dict>
+	<key>RangeCellLogs</key>
+	<dict>
+		<key>Log1Enable</key>
+		<string>No  	;; No,Yes</string>
+		<key>Log1RangeCell</key>
+		<string>1</string>
+		<key>Log2Enable</key>
+		<string>No  	;; No,Yes</string>
+		<key>Log2RangeCell</key>
+		<string>1</string>
+		<key>Log3Enable</key>
+		<string>No  	;; No,Yes</string>
+		<key>Log3RangeCell</key>
+		<string>1</string>
+		<key>LogPath</key>
+		<string>/Codar/SeaSonde/Data/RangeCellSeries/</string>
+	</dict>
+	<key>Sar Processing</key>
+	<dict>
+		<key>CrossSpectraLogging</key>
+		<string>On ;; Off,On</string>
+		<key>CrossSpectraProcessing</key>
+		<string>On</string>
+		<key>CrossSpectraUpdateRate</key>
+		<integer>1</integer>
+		<key>DisableIQDetection</key>
+		<string>No         ;; No,Yes</string>
+		<key>DopplerCells</key>
+		<integer>512</integer>
+		<key>DopplerWeightParam</key>
+		<string>12.5</string>
+		<key>DopplerWeightType</key>
+		<string>Hamming    ;; None,BlackmanHarris,Hamming,Tukey</string>
+		<key>MonopoleChannel</key>
+		<string>3</string>
+		<key>RangeCellShift</key>
+		<string>0</string>
+		<key>RangeCells</key>
+		<integer>64</integer>
+		<key>RangeLogDataType</key>
+		<string>Float4  	 ;; Int2,Int3,Int4,Float4,Float8</string>
+		<key>RangeMatrixLogging</key>
+		<string>On ;; Off,On</string>
+		<key>RangeWeightParam</key>
+		<string>12.5</string>
+		<key>RangeWeightType</key>
+		<string>Hamming    ;; None,BlackmanHarris,Hamming,Tukey</string>
+		<key>RawLevelLogging</key>
+		<string>Off ;; Off,On</string>
+		<key>RawLogDataType</key>
+		<string>Int2  	 ;; Int2,Int3,Int4,Float4,Float8</string>
+		<key>ReceiverPowerLoss</key>
+		<string>40dB</string>
+		<key>SarProcessing</key>
+		<string>On</string>
+		<key>UseHeaderSiteName</key>
+		<string>Yes ;; No,Yes,False,True</string>
+		<key>UseRangeCellImage</key>
+		<string>SweepDirection   ;; SweepDirection,SweepImage,Left,Right</string>
+	</dict>
+	<key>Sar Toggle</key>
+	<dict>
+		<key>LoadReg1</key>
+		<integer>2</integer>
+		<key>LoadReg2</key>
+		<integer>3</integer>
+		<key>RangeStepKm1</key>
+		<string>1.5</string>
+		<key>RangeStepKm2</key>
+		<string>.5</string>
+		<key>StartFreqMHz1</key>
+		<string>0</string>
+		<key>StartFreqMHz2</key>
+		<string>0</string>
+		<key>ToggleFreq</key>
+		<string>Off</string>
+		<key>ToggleLoadRegister</key>
+		<string>Off ;; Off,On,False,True</string>
+		<key>ToggleRange</key>
+		<string>Off</string>
+	</dict>
+	<key>Site Information</key>
+	<dict>
+		<key>CrossSpectraFolder</key>
+		<string>/Codar/SeaSonde/Data/Spectra/SpectraSeries/</string>
+		<key>CrossSpectraNamePrefix</key>
+		<string>&quot;CSQ&quot;</string>
+		<key>CrossSpectraNaming</key>
+		<string>DateStamp  	;; NumberSeries DateStamp</string>
+		<key>KeepVolumeFreeSpace</key>
+		<string>25000000Bytes  ;; 25MB</string>
+		<key>LevelDataNamePrefix</key>
+		<string>Lvl</string>
+		<key>ProcessingPath</key>
+		<string>/Codar/Seasonde/Data/Processing/</string>
+		<key>RangeMatrixFolder</key>
+		<string>/Codar/SeaSonde/Data/RangeSeries/</string>
+		<key>RangeMatrixNamePrefix</key>
+		<string>Rng</string>
+		<key>RawDataFolder</key>
+		<string>/Codar/SeaSonde/Data/TimeSeries/</string>
+		<key>SiteName</key>
+		<string>&quot;XXXX&quot;</string>
+		<key>UseHeaderSiteName</key>
+		<string>Yes</string>
+	</dict>
+	<key>USB Acquisition</key>
+	<dict>
+		<key>ReadBlockSize</key>
+		<string>512Bytes  ;; Must be 2^X value</string>
+		<key>ReadBufferSize</key>
+		<string>2000000Bytes  ;; 2MB</string>
+	</dict>
+</dict>
+</plist>

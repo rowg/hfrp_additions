@@ -1,0 +1,22 @@
+# SSH CONFIG FILE
+# generic for remote sites
+#
+# put in /Users/codar/.ssh/ 
+#
+# Needs id_dsa_remote private key in same folder on remote 
+# sites, and public key in authorized_keys file on Hosts named
+# below 
+# 
+# Brian Emery 19 July 2012
+
+Host euler
+Hostname euler.msi.ucsb.edu
+IdentityFile /Users/codar/.ssh/id_dsa_hfsites
+User codar_restore
+
+Host stokes 
+Hostname stokes.msi.ucsb.edu
+IdentityFile /Users/codar/.ssh/id_dsa_hfsites
+User codar
+
+
